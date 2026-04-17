@@ -5,9 +5,7 @@ static class Program
     [STAThread]
     static void Main()
     {
-        // Enable modern visual styles and DPI awareness.
-        Application.EnableVisualStyles();
-        Application.SetCompatibleTextRenderingDefault(false);
+        // Sets high-DPI awareness, visual styles, and text rendering in one call.
         ApplicationConfiguration.Initialize();
         Application.Run(new Form1());
     }

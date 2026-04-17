@@ -50,6 +50,8 @@ public sealed class OcrProcessor
                 new ParallelOptions
                 {
                     CancellationToken = cancellationToken,
+                    // Reserve one logical core for the UI message pump so the
+                    // application stays responsive while OCR is running.
                     MaxDegreeOfParallelism = Math.Max(1, Environment.ProcessorCount - 1)
                 },
                 pageIndex =>

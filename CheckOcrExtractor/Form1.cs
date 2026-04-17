@@ -33,7 +33,7 @@ public partial class Form1 : Form
                 "   Steps to fix:\n" +
                 "   1. Create the folder:  " + TessDataPath + "\n" +
                 "   2. Download 'eng.traineddata' from:\n" +
-                "      https://github.com/tesseract-ocr/tessdata/blob/main/eng.traineddata\n" +
+                "      https://github.com/tesseract-ocr/tessdata/raw/main/eng.traineddata\n" +
                 "   3. Place the file in the tessdata folder.\n" +
                 "   4. Re-launch the application.\n\n" +
                 "   (For handwritten text, also download 'eng.traineddata' from\n" +
