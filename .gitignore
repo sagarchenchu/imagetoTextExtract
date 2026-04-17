@@ -1,0 +1,19 @@
+# Build artifacts
+bin/
+obj/
+*.user
+
+# Visual Studio
+.vs/
+*.suo
+*.swp
+
+# NuGet
+packages/
+*.nupkg
+
+# Rider / JetBrains
+.idea/
+
+# macOS
+.DS_Store
